@@ -83,7 +83,7 @@ The output person must look physically real, but should still read immediately a
 - Preserve the hairstyle silhouette while translating it into physically achievable styled hair with real strands, flyaways, gravity, translucency, and scalp-root behavior.
 - Treat costume as a real garment or prop build: fabric weight, seams, layering, closures, embroidery, metal, leather, jade, wood, lacquer, and wear must behave like real materials.
 - Preserve exposed-skin boundaries and garment coverage unless the user asks for a redesign.
-- Use natural skin texture: pores, fine facial hair, subtle tonal variation, believable subsurface scattering, and non-plastic highlights.
+- Use scale-appropriate natural skin texture and believable non-plastic highlights; support clean cosplay foundation and subtle photographic retouching without inventing skin marks.
 - Use photographic eye moisture/catchlights and natural teeth/lips where visible.
 
 ## 5. Chinese donghua / guofeng defaults
@@ -188,3 +188,15 @@ Before generation, verify:
 - 2D reconstruction or 3D de-CG rules were applied as appropriate;
 - final image is expected to read as a photograph, not illustration or CG;
 - no irrelevant border, watermark, caption, or UI element is preserved.
+
+## Reference-led cosplay photography
+
+When the user provides real cosplay photos as the desired effect, use them as the primary makeup, skin-finish, hair-material and photographic-treatment references. Keep the original character image authoritative for costume, pose, expression and framing unless explicitly overridden. Do not copy a style reference's outfit or setting into an unrelated target.
+
+Default to clean, even cosplay foundation and subtle, scale-appropriate skin texture. Realism does not require freckles, moles, redness, blemishes, pronounced pores or facial hair; never invent these as realism markers. Preserve distinctive marks only when actually present in the identity reference or requested. Allow polished makeup and mild photographic retouching without turning skin into wax.
+
+Build realism through physically credible eyes, eyelids, nose and lips, real hair/wig fibers, garment construction, natural light falloff, lens behavior and coherent shadows. Avoid uniformly hyper-sharp surfaces, painted-on highlights, excessive subsurface glow, glassy doll eyes and synthetic perfect studio rendering. When requested, match the real-photo reference's ordinary camera softness, exposure and natural illumination.
+
+For a batch of the same character, produce one approved human casting anchor first, then reuse that image as the face reference for subsequent images. Do not independently recast the face for every pose. Label each input as target design/pose, human face anchor, or photography/makeup reference. Inspect one initial result against the user's references before producing the rest.
+
+In final review, reject invented skin spots, CG-looking eye/skin highlights, facial identity drift and costume/pose borrowing from style references. Repair the treatment rather than changing the character.
