@@ -174,3 +174,11 @@ Prevent:
 ## 9. Success criterion
 
 The final image should look like a high-budget live-action adaptation based on the exact 2D design, not like an anime image with realistic skin painted over it.
+
+## Clean cosplay skin and camera treatment
+
+Use clean, even foundation with realistic satin-to-matte finish when the goal is polished cosplay photography. Describe skin texture as subtle and appropriate to the image's viewing scale; do not prompt for visible facial hair or exaggerated pores by default. Never invent freckles, moles, blemishes or diffuse redness to demonstrate realism.
+
+Translate stylized eyes through believable eyelid anatomy and iris size, then apply the reference's cosplay eyeliner, lashes and colored contacts. Do not use doll-like enlarged irises. Use physically styled fine-fiber hair or a carefully fitted cosplay wig, retaining its actual strand texture and slight irregularities.
+
+When real-photo effect references are supplied, match their light softness, lens rendering, exposure and degree of retouching. Keep original garment and pose anchors. Prefer photographic skin, eye and cloth behavior over a blanket increase in microdetail. Inspect the first result before generating a series.
