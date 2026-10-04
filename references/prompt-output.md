@@ -150,3 +150,16 @@ Ask internally:
 - Are there any copied UI, watermark, text, or borders that should be removed?
 
 If any answer exposes a likely failure, revise before generation.
+
+## Real cosplay effect references and series
+
+Add explicit reference roles before the prompt:
+- Original artwork: exact garment, hair design, accessories, pose, expression and composition.
+- Real cosplay effect photo: makeup, clean skin finish, realistic hair material, lighting and camera treatment.
+- Approved generated human portrait, when available: same adult facial identity across the series.
+
+For clean cosplay photography, use positive language such as "clean even cosplay foundation, subtle satin skin finish, softly resolved natural texture, real eyelid anatomy, camera-like focus and exposure." Avoid using conspicuous pores, facial hair or skin defects as mandatory photorealism cues. Add "no newly invented freckles, moles or blemishes" when the source has none.
+
+Generate and inspect a single representative image, then reuse its approved face as the casting anchor for the remaining targets. Do not average two real people's faces or blend unrelated outfits. An effect reference does not authorize changing the target's camera or setting. Keep each result a separate image.
+
+If polished skin still looks synthetic, repair lighting, eye anatomy, hair fibers, material response and lens rendering; do not add skin spots or roughness.
